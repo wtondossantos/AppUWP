@@ -12,14 +12,6 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <StackPanel>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" >
-                <Button Height="50" Content="Início" x:Name="btnPg1" Click="btnPg1_Click"/>
-                <Button Height="50" Content="Configuração" x:Name="btnPg2" Click="btnPg2_Click"/>
-                <Button Height="50" Content="&lt;" x:Name="btnBack" Click="btnBack_Click"/>
-                <Button Height="50" Content="&gt;" x:Name="btnFwd" Click="btnFwd_Click"/>
-            </StackPanel>
-        </StackPanel>
         <Frame Grid.Row="1" x:Name="mainFrame" CacheSize="2" />
         <TextBlock FontSize="30" TextAlignment="Center" HorizontalAlignment="Left" Margin="73,220,0,0" TextWrapping="Wrap" Text="Transação efetuada com sucesso!" VerticalAlignment="Top" Height="130" Width="284"/>
     </Grid>

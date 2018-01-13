@@ -26,6 +26,7 @@ namespace AppUWP
         public MainPage()
         {
             this.InitializeComponent();
+            
             this.mainFrame.Navigated += MainFrame_Navigated;
 
             SystemNavigationManager.GetForCurrentView().BackRequested += MainPage_BackRequested;
@@ -51,7 +52,6 @@ namespace AppUWP
 
         private void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
-            mainFrame.Navigate(typeof(MainPage));
         }
 
         private void btnPg1_Click(object sender, RoutedEventArgs e)
