@@ -16,8 +16,6 @@
                         <RowDefinition Height="400"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock HorizontalAlignment="Left" Margin="25,65,0,0" TextWrapping="Wrap" Text="Banco" VerticalAlignment="Top" Width="59"/>
-                    <ComboBox HorizontalAlignment="Left" Margin="25,90,0,0" VerticalAlignment="Top" Width="206"/>
                     <TextBlock HorizontalAlignment="Left" Margin="25,187,0,0" TextWrapping="Wrap" Text="Valor" VerticalAlignment="Top" Width="59"/>
                     <TextBox HorizontalAlignment="Left" Margin="25,212,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="206"/>
                     <RadioButton Content="Conta Corrente" GroupName="conta" HorizontalAlignment="Left" Margin="29,133,0,0" VerticalAlignment="Top"/>
@@ -32,7 +30,7 @@
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
                     <TextBlock HorizontalAlignment="Left" Margin="25,65,0,0" TextWrapping="Wrap" Text="Banco" VerticalAlignment="Top" Width="59"/>
-                    <ComboBox HorizontalAlignment="Left" Margin="25,90,0,0" VerticalAlignment="Top" Width="206"/>
+                    <ComboBox HorizontalAlignment="Left" Margin="25,90,0,0" Name="Banco_outros" VerticalAlignment="Top" Width="206"/>
                     <TextBlock HorizontalAlignment="Left" Margin="25,187,0,0" TextWrapping="Wrap" Text="Valor" VerticalAlignment="Top" Width="59"/>
                     <TextBox HorizontalAlignment="Left" Margin="25,212,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="206"/>
                     <RadioButton Content="Conta Corrente" GroupName="conta" HorizontalAlignment="Left" Margin="29,133,0,0" VerticalAlignment="Top"/>

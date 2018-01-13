@@ -26,6 +26,8 @@ namespace AppUWP.Pages
         public ItemView()
         {
             this.InitializeComponent();
+
+            
         }
         
 
